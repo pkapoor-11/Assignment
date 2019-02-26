@@ -1,0 +1,11 @@
+<doctype html>
+
+{% from "_formhelpers.html" import render_field %}
+<form method=post>
+    <dl>
+        {{ render_field(form.ID) }}
+        {{ render_field(form.NAme) }}
+ 
+    </dl>
+    <p><input type=submit value=Submit>
+</form>
